@@ -1,0 +1,12 @@
+.ant-list-item{
+  display: block;
+}
+.ant-permissions-checks {
+  padding: 7px;
+  background: #f3f3f3;
+  border-radius: 5px;
+  margin: 10px 6px !important;
+}
+.ant-check-title {
+  padding-left: 4px;
+}

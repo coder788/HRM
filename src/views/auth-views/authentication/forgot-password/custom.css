@@ -1,0 +1,13 @@
+.verifyForm .ant-form-item{
+	height: 50px;
+	margin: 20px 5px;
+}
+.verifyForm .ant-input{
+	height: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	border-color: #bbc1c8;
+}
+.verifyForm .ant-form-item-control-input {
+	min-height: 3.513rem;
+}

@@ -1,0 +1,6 @@
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) .anticon {
+  background-color: #ffffff!important;
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) h5 {
+  color: #ffffff;
+}

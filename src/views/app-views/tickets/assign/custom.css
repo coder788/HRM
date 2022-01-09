@@ -1,0 +1,42 @@
+.fc-theme-standard td, .fc-theme-standard th {
+  border-color: #edf2f9!important;
+}
+.fc a{
+  color:#1a3353!important;
+}
+.fc .fc-button-primary:not(:disabled):active, .fc .fc-button-primary:not(:disabled).fc-button-active, .fc .fc-today-button:disabled{
+  background-color: #75818c!important;
+  color: #fff!important;
+}
+.fc .fc-button-group{
+  border-radius: 15px!important;
+}
+.fc .fc-button{
+  background-color: #fff!important;
+  border-color: #ededed!important;
+  color: #455560!important;
+  height: 2.5rem;
+  padding: 0 1.25rem;
+  min-width: 60px;
+}
+.fc .fc-button::first-letter{
+  text-transform: uppercase;
+}
+.fc .fc-today-button{
+  border-radius: 5px!important;
+}
+.fc .fc-daygrid-day.fc-day-today{
+  background-color: rgba(62, 130, 247, 0.1)!important;
+}
+.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-number{
+  background-color: #3e82f7!important;
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  border-radius: 0.3rem!important;
+  padding: 0 0.408rem!important;
+  margin: 5px 5px 0;
+  line-height: 28px;
+}
+.fc .fc-col-header-cell {
+  padding: 10px 0 !important;
+}

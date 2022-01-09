@@ -1,0 +1,29 @@
+{
+  "home": "Home",
+
+  "sidenav.dashboard": "Dashboard",
+  "sidenav.dashboard.default": "Home",
+  "sidenav.dashboard.interactive": "Interactive Map",
+  "sidenav.dashboard.settings": "Settings",
+
+  "sidenav.reports-staff": "Employee",
+  "sidenav.reports-customers": "Customers",
+  "sidenav.reports-tickets": "Tickets",
+  "sidenav.reports-stock": "Stock",
+
+  "sidenav.employee": "Employee",
+  "sidenav.auth": "Auth Control",
+  "sidenav.tickets": "Tickets",
+  "sidenav.mission": "Mission Sheet",
+  "sidenav.customers": "Customers",
+  "sidenav.equipments": "Equipments",
+  "sidenav.stock": "Stock",
+  "sidenav.districts": "Districts",
+  "sidenav.department": "Departments",
+  "sidenav.zones": "Zones",
+  "sidenav.vehicles": "Vehicles",
+  "sidenav.chat": "Chat",
+  "sidenav.newsletter": "Newsletter",
+  "sidenav.logs": "Employee Logs",
+  "sidenav.reports": "Reports"
+}

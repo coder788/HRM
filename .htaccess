@@ -1,0 +1,20 @@
+RewriteEngine On
+#RewriteBase /subdirectory
+#RewriteRule ^index\.html$ - [L]
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+RewriteCond %{HTTP_HOST} ^(www\.)?arfal.net$
+RewriteRule ^([a-zA-Z0-9\-_]+)$ /review/$1 [R,L]
+
+RewriteCond %{HTTP_HOST} ^(www\.)?arfal.net$
+RewriteRule ^review/([a-zA-Z0-9\-_]+)$ /index.html [L]
+
+RewriteCond %{HTTP_HOST} ^(www\.)?arfal.net$
+RewriteRule ^$ https://arabianfal.com [L,R]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule . /index.html [L]
